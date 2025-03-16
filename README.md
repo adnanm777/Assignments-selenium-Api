@@ -13,7 +13,8 @@ Edit
 │   └── Windowhnadle.java  
 ├── postman  
 │   └── dummy.postman_collection.json  
-└── README.md  
+└── README.md
+
 📄 Files Description
 1. 🌐 APIpractice.java
 ✅ Uses RestAssured to send HTTP GET requests.
@@ -21,13 +22,15 @@ Edit
 🥗 Endpoint: /recipes
 🎯 Purpose: Fetches all available recipes.
 
-2. 📊 DataDriven.java
+
+3. 📊 DataDriven.java
 ✅ Implements data-driven testing using Apache POI to read data from an Excel file.
 🔑 URL: https://practicetestautomation.com/practice-test-login/
 📝 Loads username and password from Excel.
 🚀 Performs login operation using Selenium.
 
-3. 📮 dummy.postman_collection.json
+
+5. 📮 dummy.postman_collection.json
 ✅ Postman collection for API testing:
 
 📥 GET all recipes
@@ -36,18 +39,23 @@ Edit
 ➕ POST a new recipe (mocked)
 ✏️ PUT (update) a recipe (mocked)
 ❌ DELETE a recipe by ID
+
+
 4. 📂 fileInput.java
 🚧 Empty class. Can be used for handling file inputs in future development.
+
 
 5. 🪟 iframe.java
 ✅ Demonstrates handling of single and nested iframes using Selenium.
 🌐 URL: https://demo.automationtesting.in/Frames.html
 🔀 Handles switching between parent and child iframes.
 
+
 6. 🌍 Windowhnadle.java
 ✅ Demonstrates handling of multiple browser windows using Selenium.
 🌐 URL: https://www.globalsqa.com/demo-site/frames-and-windows/#
 🔀 Handles window switching and extracts content from a new window.
+
 
 🛠️ Requirements
 ✔️ Java (JDK 8 or above)
@@ -56,6 +64,7 @@ Edit
 ✔️ TestNG
 ✔️ RestAssured
 ✔️ Apache POI
+
 
 🚀 Setup
 1. Clone the repository:
@@ -73,8 +82,5 @@ mvn install
 bash
 Copy
 Edit
-mvn test  
-🔎 Notes
-⚠️ Make sure to configure the ChromeDriver path in your system.
-📌 Update the Excel file path in DataDriven.java before running.
+mvn test  .
 
