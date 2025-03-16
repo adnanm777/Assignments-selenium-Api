@@ -2,18 +2,18 @@
 This project contains a set of Java-based automation scripts using Selenium, TestNG, RestAssured, and Apache POI for testing web applications and APIs.
 
 🗂️ Folder Structure
-src
-
-DataDriven.java
-fileInput.java
-iframe.java
-Windowhnadle.java
-APIpractice.java
-postman
-
-dummy.postman_collection.json
-README.md
-
+css
+Copy
+Edit
+├── src  
+│   ├── DataDriven.java  
+│   ├── fileInput.java  
+│   ├── iframe.java  
+│   ├── Windowhnadle.java  
+│   ├── APIpractice.java  
+├── postman  
+│   └── dummy.postman_collection.json  
+└── README.md  
 📄 Files Description
 1. 📊 DataDriven.java
 ✅ Implements data-driven testing using Apache POI to read data from an Excel file.
@@ -56,3 +56,4 @@ README.md
 ✔️ TestNG
 ✔️ RestAssured
 ✔️ Apache POI
+
